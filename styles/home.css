@@ -1,0 +1,50 @@
+.navbar {
+    padding:2rem 0px 0px 8rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    position: sticky;
+}
+
+.navbar__logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+.navbar__links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 14px;
+}
+
+.navbar__link {
+    color: rgb(41, 41, 41);
+}
+
+.navbar__link:hover {
+    color: rgb(110, 110, 248);
+}
+
+
+.navbar__link:active {
+    color: blue;
+}
+
+.hero {
+    width: 40vw;
+    height: calc(100vh - 6rem);
+    padding-left: 8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.hero__title {
+    color: rgb(70, 70, 70);
+}
+
+.hero__description {
+    color: rgb(104, 104, 104);
+}
