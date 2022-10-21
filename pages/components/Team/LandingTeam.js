@@ -3,7 +3,7 @@ import React from 'react'
 const LandingTeam = () => {
     return (
         <section className="team pl-32">
-            <h2 className="team__title">Our Team</h2>
+            <h2 className="team__title text-base font-bold">Our Team</h2>
             <div className="team__advisor mt-8 flex gap-8 items-center justify-center">
                 {/* <!-- advisor image --> */}
                 <div className="team__advisor__left flex flex-col text-center gap-4">
@@ -23,6 +23,8 @@ const LandingTeam = () => {
                     fugit, quidem inventore molestiae beatae. Pariatur mollitia quae, quas
                     cum similique dignissimos enim explicabo maxime nulla quidem animi
                     atque labore?
+
+
                 </p>
             </div>
             <div className="team__member"></div>

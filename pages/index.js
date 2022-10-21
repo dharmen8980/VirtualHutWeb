@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import LandingHero from './components/Hero/LandingHero'
 import LandingTeam from './components/Team/LandingTeam'
 import DefaultLayout, { defaultLayout } from './layout/default'
+import 'antd/dist/antd.css';
 
 export default function Home() {
   return (
