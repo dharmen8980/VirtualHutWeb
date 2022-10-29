@@ -59,27 +59,27 @@ export default function Home() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-9 md:space-y-0 text-lg">
-                <li className="text-white hover:shadow-lg hover:text-2xl ">
+                <li className="text-white hover:shadow-lg hover:text-lg hover:bg-sky-700 p-2 rounded-lg">
                   <Link href="/" passHref>
                     Home
                   </Link>
                 </li>
-                <li className="text-white hover:shadow-lg hover:text-2xl">
+                <li className="text-white hover:shadow-lg hover:text-lg hover:bg-sky-700 p-2 rounded-lg">
                   <Link href="/progress" passHref>
                     Progress
                   </Link>
                 </li>
-                <li className="text-white hover:shadow-lg hover:text-2xl">
+                <li className="text-white hover:shadow-lg hover:text-lg hover:bg-sky-700 p-2 rounded-lg">
                   <Link href="/about" passHref>
                     About US
                   </Link>
                 </li>
-                <li className="text-white hover:shadow-lg hover:text-2xl">
+                <li className="text-white hover:shadow-lg hover:text-lg hover:bg-sky-700 p-2 rounded-lg">
                   <Link href="/team" passHref>
                     Our Team
                   </Link>
                 </li>
-                <li className="text-white hover:shadow-lg hover:text-2xl">
+                <li className="text-white hover:shadow-lg hover:text-lg hover:bg-sky-700 p-2 rounded-lg">
                   <Link href="/contact" passHref>
                     Contact US
                   </Link>
