@@ -1,13 +1,12 @@
 import React from 'react'
 
-const Footer = () => {
+export default function Footer () {
   return (
-    <>
-
-        <div className='absolute bottom-0 text-white shadow-[0px_45px_90px_20px_rgba(0,0,0,0.3)] w-full'>
-            <div className='bg-sky-600'>
+    <div>
+        <div className='absolute bottom-0 text-white shadow-[0px_30px_90px_50px_rgba(0,0,0,0.3)] w-full'>
+            <div className='bg-gradient-to-r from-cyan-900 to-black'>
             <div className='py-16 grid grid-cols-4 xs:grid-cols-4 md:grid-cols-8 gap-8 text-left max-w-full relative mx-auto '>
-                <div className='col-span-2 text-white text-2xl px-10 my-auto font-semibold mx-auto'>
+                <div className='col-span-2 text-white text-2xl px-10 my-auto font-semibold mx-10'>
                 <p>Virtual Hut</p>
                 </div>
                 <div className='col-span-2 mx-auto'>
@@ -63,15 +62,15 @@ const Footer = () => {
                 <div className='col-span-2 mx-auto'>
                 <p className='underline text-gray-300'>Contact</p>
                 <div className='my-2'>
+                <p>Project Manager</p>
                 <p>
                 <button className='my-1'>
                     Dharmendra Sharma
                 </button>
-                <p>(Project Manager)</p>
                 </p>
                 <p>
                 <button className='my-1'>
-                    (504)-401-6830
+                    504-401-6830
                 </button>
                 </p>
                 <p>
@@ -85,8 +84,6 @@ const Footer = () => {
             </div>
         </div>
 
-    </>
+    </div>
   )
 }
-
-export default Footer

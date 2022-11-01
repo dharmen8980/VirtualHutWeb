@@ -11,9 +11,10 @@ export default function Home() {
         <div className="justify-between px-4 mx-auto lg:max-w-full md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="/">
-                <h2 className="text-4xl px-5 text-white font-bold">Virtual Hut</h2>
-              </a>
+            <div className='my-1'>
+            <Link href="/" className = "font-extrabold  text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-400 via-cyan-400 to-white ">
+            Virtual Hut</Link>
+            </div>          
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
