@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 
 function Progress() {
+  setTimeout(function(){globalThis.location='/contact';}, 2000);
   return (
     <div>
       <Head>
